@@ -1,6 +1,6 @@
 {
   "name": "cc-fsm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "📟 Finite state machine",
   "files": [
     "build/**/*"
@@ -8,7 +8,8 @@
   "main": "build/fsm.js",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
