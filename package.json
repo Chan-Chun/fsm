@@ -1,0 +1,27 @@
+{
+  "name": "cc-fsm",
+  "version": "1.0.0",
+  "description": "📟 Finite state machine",
+  "files": [
+    "build/**/*"
+  ],
+  "main": "build/fsm.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chan-Chun/fsm.git"
+  },
+  "keywords": [],
+  "author": "Chan-Chun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chan-Chun/fsm/issues"
+  },
+  "homepage": "https://github.com/Chan-Chun/fsm#readme",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  }
+}
